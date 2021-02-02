@@ -1,0 +1,272 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+  }
+  
+  *, *:before, *:after {
+	box-sizing: border-box;
+  }
+  
+  :focus, :active {
+	outline: none;
+  }
+  
+  a:focus, a:active {
+	outline: none;
+  }
+  
+  nav, footer, header, aside {
+	display: block;
+  }
+  
+  html, body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+  }
+  
+  input, button, textarea {
+	font-family: inherit;
+  }
+  
+  input::-ms-clear {
+	display: none;
+  }
+  
+  button {
+	cursor: pointer;
+  }
+  
+  button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+  }
+  
+  a, a:visited {
+	text-decoration: none;
+  }
+  
+  a:hover {
+	text-decoration: none;
+  }
+  
+  ul li {
+	list-style: none;
+  }
+  
+  img {
+	vertical-align: top;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+	font-size: inherit;
+	font-weight: inherit;
+  }
+  
+  /*--------------------*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	
+	font-size: 14px;
+	font-weight: 300;
+}
+.header{
+	color: white;
+	height: 500px;
+	
+	background-color: #f74c55;
+	background: url(../img/bg-header.svg.png) center no-repeat;
+	background-size: cover;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.header__inner {
+}
+.logo {
+	padding-left: 8px;
+	color: white;
+	float: left;
+	font-family: 'Courgette', cursive;
+	font-size: 40px;
+	padding-top: 15px;
+}
+.menu {
+	padding-top: 33px;
+	padding-right: 10px;
+	float: right;
+}
+.menu a{
+	text-transform: uppercase;
+	margin-right: 25px;
+	color: white;
+}
+.header__body {
+	clear: both;
+	margin-right: 150px;
+	margin-left: auto;
+	padding-top: 157px;
+	width: 300px;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.header__title {
+	font-size: 40px;
+	line-height: 44px;
+	margin-bottom: 20px;
+}
+.header__text {
+	font-size: 16px;
+	margin-bottom: 25px;
+}
+.header__btn {
+	font-size: 22px;
+	background: none;
+	color: #fff;
+	padding: 8px 31px;
+	border: 3px solid white;
+	border-radius: 5px;
+}
+.block-text {
+	
+}
+.block-text__inner{
+	max-width: 870px;
+	margin: 88px 0px 106px 93px;
+}
+.block-text__title {
+	font-size: 30px;
+	padding-bottom: 35px;
+	font-weight: 400;
+
+}
+.block-text__text {
+	line-height: 24px;
+	padding-bottom: 60px;
+	
+
+}
+.block-text__color {
+	
+
+}
+.block-text__color img{
+	margin-right: -4px;
+}
+.services {
+	background: url(../img/bg-serviсes.png) center repeat-y;
+	color: white;
+}
+.services__item{
+	float: left;
+	position: relative;
+}
+.services__item:nth-child(1){
+	max-width: 347px;
+	padding: 0 30px;
+}
+.services__item:nth-child(2){
+	max-width: 363px;
+	padding: 0 44px;
+}
+.services__item:nth-child(3){
+	max-width: 314px;
+	padding: 0 0 0 40px;
+
+}
+
+.services__title {
+	font-size: 22px;
+	margin-bottom: 22px;
+	margin-top: 40px;
+	font-weight: 400;
+	
+}
+.services__title a{
+	color: white;
+}
+.icon-statistic:before{
+	content: "";
+	background: url(../img/icon1.png) left  no-repeat;
+	height: 40px;
+	width: 46px;
+	display: inline-block;
+	margin-bottom: -14px;
+}
+.icon-phone:before{
+	content: "";
+	background: url(../img/icon.png) left  no-repeat;
+	height: 40px;
+	width: 48px;
+	display: inline-block;
+	margin-bottom: -14px;
+}
+.icon-upload:before{
+	content: "";
+	background: url(../img/icon2.png) left  no-repeat;
+	height: 40px;
+	width: 56px;
+	display: inline-block;
+	margin-bottom: -14px;
+}
+.services__text{
+	padding-bottom: 80px; 	
+	line-height: 24px;
+}
+.services__link{
+	padding: 8px;
+	background-color: #272727;
+	font-size: 46px;
+	line-height: 25px;
+	color: white;
+	display: inline-block;
+	font-weight: 500;
+	position: absolute;
+	bottom: 32px;
+	left: 265px;
+}
+.music{
+	background: url(../img/bg-music.jpg) center no-repeat;
+	height: 510px;
+	margin-top: -1px;
+}
+.music__title{
+	color: white;
+	font-size: 42px;
+	line-height: 53px;
+	text-align: center;
+	width: 530px;
+	margin: 0 auto;
+	padding-top: 180px;
+	padding-bottom: 48px;
+}
+.music__btn{
+	color: white;
+	font-size: 24px;
+	background: none;
+	border: 3px solid white;
+	border-radius: 5px;
+	padding: 12px 30px;
+	display: block;
+	margin: 0 auto;
+}
+.footer{
+	text-align: center;
+}
+.footer p{
+	padding: 31px 0 24px;
+	font-size: 16px;
+}
