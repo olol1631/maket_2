@@ -87,6 +87,10 @@
 		padding-bottom: 25px;
 		
 	}
+	.services__item, .services__item:nth-child(3){
+		padding: 0 10px;
+	}
+	
 	.music__title{
 		font-size: 32px;
 		width: 100%;
